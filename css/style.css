@@ -160,7 +160,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_15 {
   font-size: 15px;
 }
-
+.f_size_14 {
+  font-size: 14px;
+}
+.f_size_13 {
+  font-size: 13px;
+}
+.f_size_12 {
+  font-size: 12px;
+}
+.text-white{
+  color: #FFFFFF;
+}
 .l_height60 {
   line-height: 60px;
 }
@@ -3923,6 +3934,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 63%;
   text-align: center;
   margin-left: 18%;
+}
+.fbold{
+  font-weight: 700;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .linko{
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+  }
 }
 /*====================================================*/
 /*====================================================*/
@@ -10604,7 +10626,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*================== contact_info_area css ================*/
 .contact_info_item {
-  border-bottom: 1px solid #eeebf6;
+  /* border-bottom: 1px solid #eeebf6; */
   padding-bottom: 25px;
 }
 .contact_info_item p {
@@ -15623,7 +15645,7 @@ a .h_head:hover {
   padding: 100px 0px 120px;
 }
 .h_footer_dark .company_widget p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   margin-top: 32px;
   margin-bottom: 0;
