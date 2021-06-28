@@ -3945,6 +3945,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     text-align: center;
     margin-left: 0%;
   }
+  .pr_120 {
+    padding-right: 0px;
+  }
 }
 /*====================================================*/
 /*====================================================*/
